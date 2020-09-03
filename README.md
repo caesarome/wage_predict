@@ -39,9 +39,8 @@ Data Dictionary in the project:
 
 ## Outline：
 1. Exploratory Data Analysis
-2. Data Cleaning: Fill in missing data and create a new feature 'annual_wage';remove the outliers in annual_wage observations and log transform them 
-3. Apply one-hot- encoding to the categorical variables in the original dataset, caculate the average annual wage for each category  
-4. Input the cleaned data into Linear Regression model and Random Forest model, and evaluated the model results
+2. Data Cleaning: Impute missing data and create a new feature 'annual_wage'; remove the outliers in annual_wage observations and log transform them; apply one-hot- encoding to the categorical variables in the original dataset and caculate the average annual wage for each category as a new feature  
+3. Input the cleaned data into Linear Regression model and Random Forest model, and evaluated the model results
 
 ## Results
 1. Linear Regression Model：
